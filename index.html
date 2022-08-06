@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolby's Sketchpad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title"> Sketchpad </div>
+    <div class="container">
+        <p id="description"> Enter the grid size (2-99):</p>
+        <input type="text" id="userInput">
+        <button id="submit"> Submit </button>
+        <button id="clear"> Clear </button>
+    </div>
+    <div class="container">
+        <p id="description"> Select your tool:</p>
+        <input type="radio" id="black" name="tool"> <p> Black </p>
+        <input type="radio" id="blue" name="tool"> <p> Blue </p>
+        <input type="radio" id="red" name="tool"> <p> Red </p>
+        <input type="radio" id="erase" name="tool"> <p> Eraser </p>
+    </div>
+    <div class="pad">
+        <div class="grid"> </div>
+    </div>
+</body>
+</html>
